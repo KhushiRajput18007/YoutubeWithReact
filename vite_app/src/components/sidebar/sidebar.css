@@ -1,0 +1,48 @@
+body {
+    background-color: black;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    padding-top: 20px;
+    background-color: #181818;
+    color: white;
+}
+.border{
+ 
+        border: 1px solid grey;
+        margin: 10px 0; 
+      
+}
+
+.text {
+    margin: 10px 20px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color:white;
+}
+
+.text img {
+    margin-right: 10px;
+}
+
+.text:hover {
+    cursor: pointer;
+    background-color: #383838;
+    border-radius: 5px;
+}
+.sidebar{
+height: 110vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 16vw;
+}
